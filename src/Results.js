@@ -8,13 +8,15 @@ export default function Results(props) {
     return (
       <div className="Results pt-4">
         <h1>{props.results.word}</h1>
-        {props.results.meanings.map(function (meaning, index) {
-          return (
-            <div key={index}>
-              <Meaning meaning={meaning} />
-            </div>
-          );
-        })}
+        <div className="pt-3 border m-4">
+          {props.results.meanings.map(function (meaning, index) {
+            return (
+              <div key={index}>
+                <Meaning meaning={meaning} />
+              </div>
+            );
+          })}
+        </div>
       </div>
     );
   } else {
