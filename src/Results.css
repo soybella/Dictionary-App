@@ -6,5 +6,7 @@
 
 .Results h2 {
   text-transform: capitalize;
+  border-bottom: 1px solid white;
+  /* padding-bottom: 15px; */
   font-weight: bold;
 }

@@ -7,8 +7,8 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results p-3">
-        <h2>{props.results.word}</h2>
         <div className=" mt-3 pt-3 border rounded mb-3">
+          <h2 className="pb-3">{props.results.word}</h2>
           {props.results.meanings.map(function (meaning, index) {
             return (
               <div key={index}>
