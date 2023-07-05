@@ -1,3 +1,10 @@
-body {
-  color: white;
+.Results {
+  display: block;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.Results h2 {
+  text-transform: capitalize;
+  font-weight: bold;
 }

@@ -6,9 +6,9 @@ export default function Results(props) {
   // console.log(props.definition);
   if (props.results) {
     return (
-      <div className="Results pt-4">
-        <h1>{props.results.word}</h1>
-        <div className="pt-3 border m-4">
+      <div className="Results p-3">
+        <h2>{props.results.word}</h2>
+        <div className=" mt-3 pt-3 border mb-3">
           {props.results.meanings.map(function (meaning, index) {
             return (
               <div key={index}>

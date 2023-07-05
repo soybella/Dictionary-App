@@ -5,15 +5,33 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header pt-5 pb-3">
+      <header className="App-header mt-5 pb-3">
         <h1> Dictionary </h1>
       </header>
       <main>
-        <p>Search for a word:</p>
+        <p>search for a word:</p>
         <Dictionary />
       </main>
-      <br />
-      <footer>Coded with ♥︎ by Isabella Lizarde</footer>
+      <footer className="mt-2 mb-5">
+        Developed with ♥︎ by{" "}
+        <a
+          href="https://www.linkedin.com/in/isabellalizarde/"
+          target="_blank"
+          rel="noreferrer"
+          alt="Isabella's LinkedIn"
+        >
+          Isabella Lizarde,
+        </a>{" "}
+        and is{" "}
+        <a
+          href="https://github.com/soybella/dictionary-project"
+          target="_blank"
+          rel="noreferrer"
+          alt="Isabella's Repository"
+        >
+          open sourced.
+        </a>
+      </footer>
     </div>
   );
 }
