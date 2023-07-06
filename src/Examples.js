@@ -1,4 +1,5 @@
 import React from "react";
+import "./Examples.css";
 
 export default function Examples(props) {
   console.log(props.examples);
