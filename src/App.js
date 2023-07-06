@@ -10,7 +10,7 @@ function App() {
       </header>
       <main>
         <p>search for a word:</p>
-        <Dictionary />
+        <Dictionary defaultKeyword="hello" />
       </main>
       <footer className="mt-2 mb-5">
         Developed with ♥︎ by{" "}
