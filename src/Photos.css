@@ -1,0 +1,7 @@
+.Photos {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.Photos img {
+  margin-bottom: 20px;
+}
